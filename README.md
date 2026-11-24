@@ -10,18 +10,18 @@ This repository holds Pilcrow's downloads. It does not hold the source.
 With Homebrew:
 
 ```sh
-brew install --cask makyinmars/tap/pilcrow
+brew install --cask makyllc/tap/pilcrow
 ```
 
-Or download the DMG from [Releases](https://github.com/makyinmars/pilcrow-releases/releases), open
+Or download the DMG from [Releases](https://github.com/makyllc/pilcrow-releases/releases), open
 it, and drag Pilcrow to Applications.
 
-Pilcrow needs macOS 14 or newer, on Apple silicon or Intel. The app is signed by Maky Software Inc,
+Pilcrow needs an Apple silicon Mac with macOS 14 or newer. Intel Macs are not supported. The app is signed by Maky Software Inc,
 LLC and notarized by Apple.
 
 ## Update
 
-With Homebrew, run `brew upgrade --cask makyinmars/tap/pilcrow`. Otherwise download the newer DMG.
+With Homebrew, run `brew upgrade --cask makyllc/tap/pilcrow`. Otherwise download the newer DMG.
 Pilcrow does not check for updates by itself.
 
 ## Your writing
@@ -34,7 +34,7 @@ kept in the macOS keychain. The text under review goes only to that provider.
 
 ## Help
 
-Report a problem in [Issues](https://github.com/makyinmars/pilcrow-releases/issues). Include the
+Report a problem in [Issues](https://github.com/makyllc/pilcrow-releases/issues). Include the
 version and build from Settings > About.
 
 Pilcrow is MIT licensed. Dependency and font licenses are in the app under About.
